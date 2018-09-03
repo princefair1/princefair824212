@@ -28,10 +28,7 @@ client.user.setGame(`Bazoka`,"http://twitch.tv/S-F")
   console.log('')
 });
 var prefix = "ba.";
-
- 
-client.on('message', message => { // كود برودكسات
-  var prefix = 'ba.'; // هنا تقدر تغير البرفكس
+ client.on('message', message => { // كود برودكسات
 	var command = message.content.split(" ")[0];
 	if(command == prefix + 'bc') { // الكوماند !bc
 
