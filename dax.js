@@ -429,7 +429,7 @@ client.on('message', message => { //وصف الكود: لعرض عدد الاش�
  
 client.on('message', message => {  //وصف الكود: يثبت ملكية البوت
   if (!message.content.startsWith(prefix)) return;
-  const verifed = ["368324156367962112"];
+  const verifed = ["401053902168129556"];
 if (message.content.startsWith(prefix + 'ownerbot')) {
     if(!message.channel.guild) return;
 if( verifed.some(word => message.author.id.includes(word)) ) {    return message.channel.sendMessage("**انت صاحب البوت **")
@@ -535,7 +535,7 @@ if (message.content.startsWith(prefix + "contact")) {
 if (!message.channel.guild) return;
 let args = message.content.split(" ").slice(1).join(" ");
 
-client.users.get("368324156367962112").send(
+client.users.get("401053902168129556").send(
     "\n" + "**" + " السيرفر 🏳 " + message.guild.name + "**" + 
     "\n" + "**" + " المرسل  📝 " + message.author.tag + "**" + 
     "\n" + "**" + args +   " 📨 الرسالة " + "**")
